@@ -1,4 +1,5 @@
 import {
+  GetCampaignDetailsResponse,
   ResponseHooks,
   StartPaymentRequestPayload,
   StartPaymentResponse,
@@ -24,6 +25,14 @@ export class NgoCampaign {
   ) {
     this.campaignId = campaignId;
     this.apiClient = new NgoApiClient(externalId);
+  }
+
+  public async getDetailsUrl(): Promise<GetCampaignDetailsResponse | void> {
+    try {
+      return await this.apiClient.get<GetCampaignDetailsResponse>("");
+    } catch (error) {
+      throw new Error("Failed to get campaign's details");
+    }
   }
 
   public async getPaymentUrl(
