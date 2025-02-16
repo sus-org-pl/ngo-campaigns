@@ -8,7 +8,7 @@ export interface StartPaymentRequestPayload {
     email: string;
   };
   price: number;
-  campaignPriceId: number;
+  campaignPriceId?: number;
   campaignId: number;
   /** By default, this is set to empty string */
   payMethod: string;
