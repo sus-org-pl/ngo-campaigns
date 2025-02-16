@@ -1,5 +1,5 @@
 {
-  "name": "ngo-campaigns",
+  "name": "@sus-org-pl/ngo-campaigns",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
     "format:check": "eslint",
     "format:fix": "eslint --fix"
   },
