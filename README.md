@@ -4,7 +4,9 @@ This library provides an abstraction for interacting with NGO.pl campaign data a
 
 ## Installation
 
+```bash
 yarn add @sus-org-pl/ngo-campaigns
+```
 
 ## Usage
 
@@ -30,7 +32,7 @@ Retrieves details of the campaign.
 await campaign.getDetailsUrl();
 ```
 
-Starting a Payment
+### Starting a Payment
 
 To initiate a payment for a given campaign, you need to provide a payload containing the necessary transaction details.
 
