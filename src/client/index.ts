@@ -27,7 +27,7 @@ export class NgoCampaign {
 		this.apiClient = new NgoApiClient(externalId);
 	}
 
-	public async getDetailsUrl(): Promise<GetCampaignDetailsResponse | void> {
+	public async getDetails(): Promise<GetCampaignDetailsResponse | void> {
 		try {
 			return await this.apiClient.get<GetCampaignDetailsResponse>('');
 		} catch (error) {

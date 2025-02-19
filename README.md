@@ -29,7 +29,7 @@ const campaign = new NgoCampaign(2771, "GdqmZr");
 Retrieves details of the campaign.
 
 ```ts
-await campaign.getDetailsUrl();
+await campaign.getDetails();
 ```
 
 ### Starting a Payment
@@ -62,7 +62,7 @@ await campaign.getPaymentUrl(paymentPayload, {
 
 ### Error Handling
 
-If an API request fails, an error will be thrown in getDetailsUrl(), while getPaymentUrl() allows handling errors via the provided hooks.onError callback.
+If an API request fails, an error will be thrown in getDetails(), while getPaymentUrl() allows handling errors via the provided hooks.onError callback.
 
 ## License
 
