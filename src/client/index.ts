@@ -3,9 +3,9 @@ import {
 	ResponseHooks,
 	StartPaymentRequestPayload,
 	StartPaymentResponse,
-} from '../types/index';
+} from '../types';
 
-import { NgoApiClient } from './api/index';
+import { NgoApiClient } from './api';
 
 export class NgoCampaign {
 	private readonly campaignId: number;
