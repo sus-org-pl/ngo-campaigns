@@ -1,11 +1,11 @@
-import {
+import type {
 	GetCampaignDetailsResponse,
 	ResponseHooks,
 	StartPaymentRequestPayload,
 	StartPaymentResponse,
 } from '../types';
 
-import { NgoApiClient } from './api';
+import { NgoApiClient } from './api/index.ts';
 
 export class NgoCampaign {
 	private readonly campaignId: number;

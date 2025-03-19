@@ -1,1 +1,1 @@
-export { NgoCampaign } from './client';
+export { NgoCampaign } from './client/index.ts';
