@@ -1,3 +1,5 @@
+export type PaymentMethod = '' | 'blik' | string;
+
 export interface StartPaymentRequestPayload {
   terms: unknown[];
   statute: boolean;
@@ -10,8 +12,11 @@ export interface StartPaymentRequestPayload {
   price: number;
   campaignPriceId?: number;
   campaignId: number;
-  /** By default, this is set to empty string */
-  payMethod: string;
+  /** 
+   * @default ''
+   * @description Empty string allows to use all payment methods
+   */
+  payMethod: PaymentMethod;
 }
 
 export interface StartPaymentResponse {
