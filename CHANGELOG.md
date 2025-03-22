@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/sus-org-pl/ngo-campaigns/compare/v0.0.7...v0.0.8) (2025-03-22)
+
+
+### Features
+
+* **campaigns:** exposed type of details structure ([14f1f75](https://github.com/sus-org-pl/ngo-campaigns/commit/14f1f75df5a85c5864b907559d5c60fc451d7bcd))
+
 ### [0.0.7](https://github.com/sus-org-pl/ngo-campaigns/compare/v0.0.6...v0.0.7) (2025-03-19)
 
 ### [0.0.6](https://github.com/sus-org-pl/ngo-campaigns/compare/v0.0.5...v0.0.6) (2025-03-19)
